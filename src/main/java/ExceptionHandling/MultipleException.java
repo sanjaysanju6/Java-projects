@@ -21,7 +21,9 @@ public class MultipleException {
                 System.out.println("Parent Exception occurs");
             }
             System.out.println("rest of the code");
+
         }
+
     }
 
 
