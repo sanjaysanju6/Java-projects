@@ -16,7 +16,12 @@ public class MapExample {
         {
             System.out.println(key +  " "+ map.get(key));
         }
-            System.out.println(map);
+        System.out.println(map.entrySet());
+        System.out.println(map);
+        System.out.println(map.keySet());
+
+        System.out.println(map.containsKey("actor"));
+        System.out.println(map.containsKey("actor1"));
 
     }
 }
