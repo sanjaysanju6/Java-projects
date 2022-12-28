@@ -21,7 +21,7 @@ class Hello implements Runnable {
         }
     }
 }
-public class ThreadDemo {
+public class ThreadDemo1 {
     public static void main(String[] args) {
         Runnable obj = new Hi();
         Runnable obj1 = new Hello();
